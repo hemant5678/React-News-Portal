@@ -1,0 +1,35 @@
+.article-page {
+    padding: 20px;
+  }
+  
+  .article-page img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 25px;
+  }
+  
+  .article-page a {
+    display: inline-block;
+    margin-top: 10px;
+    color: blue;
+    text-decoration: none;
+  }
+
+
+  
+  .article-page button{
+    align-items: center;
+    background-color: rgb(25, 0, 255);
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    padding: 1vw;
+    font-weight: 800;
+    margin-bottom: 25px;
+  }
+
+  .article-page h1{
+    text-align: center;
+    padding-bottom: 30px;
+  }

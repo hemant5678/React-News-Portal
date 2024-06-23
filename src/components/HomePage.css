@@ -1,0 +1,94 @@
+
+  
+.navbar{
+  padding: 10px 25px;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+.nav-item .nav-link, .dropdown-item{
+  color: #ddd;
+}
+.form{
+height: 10%;
+display: flex;
+}
+
+.navbar-nav{
+  align-items: center;
+}
+
+  header h1{
+    color: #ddd;
+  }
+
+  .articles-data{
+    position: relative;
+    top: 15vh;
+    padding: 20px;
+  }
+  
+  select {
+    padding: 5px;
+  }
+  
+  .articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    top: 10px;
+   
+  }
+  
+  .article {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .article a{
+    text-decoration: none;
+  }
+  
+  .article img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  
+  .pagination li {
+    list-style-type: none;
+    margin: 0 5px;
+  }
+  
+  .pagination li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: blue;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .pagination li.active a {
+    background-color: blue;
+    color: white;
+  }
+  
+  .pagination li a:hover {
+    background-color: #ddd;
+  }
+  
+  .select{
+    border: none;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+    color: #ddd;
+    cursor: pointer;
+    width: 9VW;
+    outline: none;
+  }
